@@ -1,7 +1,7 @@
 function scitaj () {
   let prveCislo = parseFloat(document.querySelector('input[name=prveCislo]').value);
   let druheCislo = parseFloat(document.querySelector('input[name=druheCislo]').value);
-  return cislo = prveCislo + druheCislo;
+  return cislo = Math.round(prveCislo + druheCislo);
 };
 
 function vypisVysledok(cislo) {
